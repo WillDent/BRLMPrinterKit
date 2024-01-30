@@ -30,14 +30,18 @@
 #import <BRLMPrinterKit/RJ3050AiPrintSettings.h>
 #import <BRLMPrinterKit/RJ3150PrintSettings.h>
 #import <BRLMPrinterKit/RJ3150AiPrintSettings.h>
-#import <BRLMPrinterKit/TD2120NPrintSettings.h>
-#import <BRLMPrinterKit/TD2130NPrintSettings.h>
+#import <BRLMPrinterKit/RJ3230BPrintSettings.h>
+#import <BRLMPrinterKit/RJ3250WBPrintSettings.h>
 #import <BRLMPrinterKit/RJ2050PrintSettings.h>
 #import <BRLMPrinterKit/RJ2140PrintSettings.h>
 #import <BRLMPrinterKit/RJ2150PrintSettings.h>
+#import <BRLMPrinterKit/TD2120NPrintSettings.h>
+#import <BRLMPrinterKit/TD2125NPrintSettings.h>
+#import <BRLMPrinterKit/TD2125NWBPrintSettings.h>
+#import <BRLMPrinterKit/TD2130NPrintSettings.h>
+#import <BRLMPrinterKit/TD2135NPrintSettings.h>
+#import <BRLMPrinterKit/TD2135NWBPrintSettings.h>
 #import <BRLMPrinterKit/TD4550DNWBPrintSettings.h>
-#import <BRLMPrinterKit/RJ3230BPrintSettings.h>
-#import <BRLMPrinterKit/RJ3250WBPrintSettings.h>
 
 #import <BRLMPrinterKit/PrintSettingsViewController.h>
 #import <BRLMPrinterKit/GenericPocketJetPrintSettingsViewController.h>
@@ -56,14 +60,18 @@
 #import <BRLMPrinterKit/RJ3050AiPrintSettingsViewController.h>
 #import <BRLMPrinterKit/RJ3150PrintSettingsViewController.h>
 #import <BRLMPrinterKit/RJ3150AiPrintSettingsViewController.h>
-#import <BRLMPrinterKit/TD2120NPrintSettingsViewController.h>
-#import <BRLMPrinterKit/TD2130NPrintSettingsViewController.h>
+#import <BRLMPrinterKit/RJ3230BPrintSettingsViewController.h>
+#import <BRLMPrinterKit/RJ3250WBPrintSettingsViewController.h>
 #import <BRLMPrinterKit/RJ2050PrintSettingsViewController.h>
 #import <BRLMPrinterKit/RJ2140PrintSettingsViewController.h>
 #import <BRLMPrinterKit/RJ2150PrintSettingsViewController.h>
+#import <BRLMPrinterKit/TD2120NPrintSettingsViewController.h>
+#import <BRLMPrinterKit/TD2125NPrintSettingsViewController.h>
+#import <BRLMPrinterKit/TD2125NWBPrintSettingsViewController.h>
+#import <BRLMPrinterKit/TD2130NPrintSettingsViewController.h>
+#import <BRLMPrinterKit/TD2135NPrintSettingsViewController.h>
+#import <BRLMPrinterKit/TD2135NWBPrintSettingsViewController.h>
 #import <BRLMPrinterKit/TD4550DNWBPrintSettingsViewController.h>
-#import <BRLMPrinterKit/RJ3230BPrintSettingsViewController.h>
-#import <BRLMPrinterKit/RJ3250WBPrintSettingsViewController.h>
 
 @interface BMSPrinterKit : NSObject
 

@@ -113,7 +113,11 @@
 #define keyRJ4230BPrintSettings @"RJ-4230B Print Settings"
 #define keyRJ4250WBPrintSettings @"RJ-4250WB Print Settings"
 #define keyTD2120NPrintSettings @"TD-2120N Print Settings"
+#define keyTD2125NPrintSettings @"TD-2125N Print Settings"
+#define keyTD2125NWBPrintSettings @"TD-2125NWB Print Settings"
 #define keyTD2130NPrintSettings @"TD-2130N Print Settings"
+#define keyTD2135NPrintSettings @"TD-2135N Print Settings"
+#define keyTD2135NWBPrintSettings @"TD-2135NWB Print Settings"
 #define keyRJ3050PrintSettings @"RJ-3050 Print Settings"
 #define keyRJ3050AiPrintSettings @"RJ-3050Ai Print Settings"
 #define keyRJ3150PrintSettings @"RJ-3150 Print Settings"
@@ -237,6 +241,10 @@ typedef enum
     kPrinterModelPJ862,
     kPrinterModelPJ863,
     kPrinterModelPJ883,
+    kPrinterModelTD2125N,
+    kPrinterModelTD2125NWB,
+    kPrinterModelTD2135N,
+    kPrinterModelTD2135NWB,
     // Add new models at the END of the list, see above!
 
 } PRINTERMODEL;

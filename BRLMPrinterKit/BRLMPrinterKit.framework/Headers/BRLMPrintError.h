@@ -38,6 +38,8 @@ typedef NS_ENUM(NSInteger, BRLMPrintErrorCode) {
     BRLMPrintErrorCodePrinterStatusErrorOverHeat,
     BRLMPrintErrorCodePrinterStatusErrorHighVoltageAdapter,
     BRLMPrintErrorCodePrinterStatusErrorUnknownError,
+    BRLMPrintErrorCodeTemplatePrintNotSupported,
+    BRLMPrintErrorCodeInvalidTemplateKey,
     BRLMPrintErrorCodeUnknownError,
 };
 

@@ -19,6 +19,7 @@
 #import <BRLMPrinterKit/BRCustomPaperInfoCommand.h>
 #include <BRLMPrinterKit/BRPtouchTemplateInfo.h>
 #include <BRLMPrinterKit/ImageCreationBlock.h>
+#import <BRLMPrinterKit/BRLMPtouchDeviceDependedDataHeader.h>
 
 #define ERROR_NONE_          0
 #define ERROR_TIMEOUT		-3
@@ -180,6 +181,18 @@ typedef NS_ENUM(NSUInteger, CONNECTION_TYPE) {
     CONNECTION_TYPE_ERROR
 };
 
+typedef NS_ENUM(NSUInteger, BRPtouchPrinterGetPrinterInfoResult) {
+    BRPtouchPrinterGetPrinterInfoResult_SUCCESS = 0,
+    BRPtouchPrinterGetPrinterInfoResult_CONNECTIONERROR = 1,
+    BRPtouchPrinterGetPrinterInfoResult_UNSUPPORT = 2,
+    BRPtouchPrinterGetPrinterInfoResult_UNKNOWN = 3,
+};
+
+typedef unsigned char BRPtouchPrinterInternalModelTypeFlag;
+extern const BRPtouchPrinterInternalModelTypeFlag BRPtouchPrinterInternalModelTypeFlagUnsupported; // Unsupported
+extern const BRPtouchPrinterInternalModelTypeFlag BRPtouchPrinterInternalModelTypeFlagCommunicationFailed; // CommunicationFailed
+
+
 extern NSString *BRWLanConnectBytesWrittenNotification;
 extern NSString *BRBluetoothSessionBytesWrittenNotification;
 extern NSString *BRBLEBytesWrittenNotification;
@@ -271,5 +284,12 @@ extern NSString *const BRMessageKey;
 
 - (int)setPrinterSettings:(NSDictionary*)printerSettings;
 - (int)getPrinterSettings:(NSDictionary**)printerSettings require:(NSArray*)require;
+
+///This api is for Brother applications. We do not recommend you to use it.
+- (BRPtouchPrinterInternalModelTypeFlag)getPrinterInternalModelFlag;
+///This api is for Brother applications. We do not recommend you to use it.
+- (BRPtouchPrinterGetPrinterInfoResult)requestPtouchDeviceDependedDataHeaderList:(NSMutableArray<BRLMPtouchDeviceDependedDataHeader*> **)headers;
+///This api is for Brother applications. We do not recommend you to use it.
+- (BRPtouchPrinterGetPrinterInfoResult)requestBluetoothFirmVersion:(NSString **)version;
 
 @end

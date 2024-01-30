@@ -27,7 +27,8 @@
 #define RJ3250WB_MAX_PAPERWIDTHDOTS (3.15F * RJ3250WB_RESOLUTION_HORZ) // 639.
 // spec section 4.3.4 Maximum and Minimum Lengths
 #define RJ3250WB_MIN_PAPERLENGTHDOTS 96
-#define RJ3250WB_MAX_PAPERLENGTHDOTS 7992
+#define RJ3250WB_MAX_PAPERLENGTHDOTS 23977 // 3.0 meters
+
 // spec section 4.3.3 Feed Amount
 #ifdef OLD
 // IMPORTANT NOTE: For LABEL papertype ONLY, we allow the MIN marginlengthdots to be set to 0.
