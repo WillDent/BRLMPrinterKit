@@ -1,8 +1,8 @@
 # BRLMPrinterKit_v4.6.7
 
-[![Version](https://img.shields.io/cocoapods/v/BRLMPrinterKit_v4.6.7.svg?style=flat)](https://cocoapods.org/pods/BRLMPrinterKit_v4.6.7)
-[![License](https://img.shields.io/cocoapods/l/BRLMPrinterKit_v4.6.7.svg?style=flat)](https://cocoapods.org/pods/BRLMPrinterKit_v4.6.7)
-[![Platform](https://img.shields.io/cocoapods/p/BRLMPrinterKit_v4.6.7.svg?style=flat)](https://cocoapods.org/pods/BRLMPrinterKit_v4.6.7)
+[![Version](https://img.shields.io/cocoapods/v/BRLMPrinterKit_4.6.7.svg?style=flat)](https://cocoapods.org/pods/BRLMPrinterKit_4.6.7)
+[![License](https://img.shields.io/cocoapods/l/BRLMPrinterKit_4.6.7.svg?style=flat)](https://cocoapods.org/pods/BRLMPrinterKit_4.6.7)
+[![Platform](https://img.shields.io/cocoapods/p/BRLMPrinterKit_4.6.7.svg?style=flat)](https://cocoapods.org/pods/BRLMPrinterKit_4.6.7)
 
 This project has been forked from [Bernard Radman's BRLMPrinterKit](https://github.com/BernardRadman/BRLMPrinterKit).
 
@@ -22,7 +22,7 @@ BRLMPrinterKit_v4.6.7 is available through [CocoaPods](https://cocoapods.org). T
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'BRLMPrinterKit_v4.6.7'
+pod 'BRLMPrinterKit_4.6.7'
 ```
 
 ## Authors
